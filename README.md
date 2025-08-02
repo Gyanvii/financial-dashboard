@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Financial Dashboard
 This project is a fully interactive financial dashboard built using Streamlit. It allows users to explore historical stock performance, visualize key technical indicators like RSI and Moving Averages, and gain better insights into market trends through dynamic and user-friendly visualizations.
 
@@ -41,3 +42,12 @@ Built by Gyanvi Agarwal – a final-year Computer Science and Engineering studen
 
 ## **License**
 This project is open source and available under the MIT License. You are free to use, modify, and distribute it with proper attribution.
+=======
+# Financial Dashboard 📊
+
+An interactive Streamlit app to visualize stock performance with moving averages, RSI, Bollinger Bands, and volume analysis.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://yourusername-financial-dashboard.streamlit.app)
+
+![screenshot](.streamlit/thumbnail.png)
+>>>>>>> master
