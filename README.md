@@ -14,7 +14,7 @@ The financial dashboard was designed to help investors, students, and finance en
 - Explore daily open, close, high, low, and volume data
 - Option to switch between different time ranges (e.g., 1 month, 3 months, 6 months, 1 year)
 
-**Technologies Used**
+## **Technologies Used**
 - Python
 - Streamlit
 - yfinance
@@ -22,7 +22,7 @@ The financial dashboard was designed to help investors, students, and finance en
 - NumPy
 - Plotly
 
-**Project Structure**
+## **Project Structure**
 financial-dashboard/
 ├── financial_dashboard.py     # Main Streamlit application file
 ├── requirements.txt           # List of Python packages required
@@ -30,14 +30,14 @@ financial-dashboard/
 │   └── config.toml            # Streamlit configuration settings
 └── README.md                  # Project documentation
 
-**Future Improvements**
+## **Future Improvements**
 Add more technical indicators (MACD, Bollinger Bands)
 Compare multiple stocks on the same graph
 Allow users to download reports or charts
 Enhance responsiveness for mobile devices
 
-**About the Creator**
+## **About the Creator**
 Built by Gyanvi Agarwal – a final-year Computer Science and Engineering student at VIT, passionate about data science, finance, and building impactful tech projects.
 
-**License**
+## **License**
 This project is open source and available under the MIT License. You are free to use, modify, and distribute it with proper attribution.
