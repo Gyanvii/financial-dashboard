@@ -6,9 +6,17 @@ import pandas as pd
 import plotly.graph_objs as go
 from datetime import datetime, timedelta
 
+# Set page config (must be first Streamlit call)
+st.set_page_config(
+    page_title="Financial Dashboard",
+    page_icon="app-icon.png",  # or use "📈" or a path to a .png file: "app-icon.png"
+    layout="wide"
+)
+
+
 # Streamlit config
-st.set_page_config(page_title="📊 Financial Dashboard", layout="wide")
-st.title(":bar_chart: Financial Data Dashboard")
+#st.set_page_config(page_title="📊 Financial Dashboard", layout="wide")
+#st.title(":bar_chart: Financial Data Dashboard")
 
 # Sidebar inputs
 st.sidebar.header("Query Parameters")
@@ -136,6 +144,7 @@ def multi_plot(ticker_list, start, end):
 
 # Load and process data
 df = get_data(ticker, start_date, end_date)
+df.to_csv("stock_data.csv")
 
 if df.empty:
     st.warning("No data found for this ticker and date range.")
