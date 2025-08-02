@@ -23,12 +23,12 @@ The financial dashboard was designed to help investors, students, and finance en
 - Plotly
 
 ## **Project Structure**
-financial-dashboard/
-├── financial_dashboard.py     # Main Streamlit application file
-├── requirements.txt           # List of Python packages required
-├── .streamlit/
-│   └── config.toml            # Streamlit configuration settings
-└── README.md                  # Project documentation
+- financial-dashboard/
+  - financial_dashboard.py     # Main Streamlit application file
+  - requirements.txt           # List of Python packages required
+  - .streamlit/
+     - config.toml            # Streamlit configuration settings
+  - README.md                  # Project documentation
 
 ## **Future Improvements**
 Add more technical indicators (MACD, Bollinger Bands)
