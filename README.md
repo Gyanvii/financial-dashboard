@@ -5,6 +5,9 @@ This project is a fully interactive financial dashboard built using Streamlit. I
 ## Overview
 The financial dashboard was designed to help investors, students, and finance enthusiasts analyze stock data in a meaningful way. It fetches live financial data using the `yfinance` library and provides visual representations using Plotly, making technical analysis accessible even to beginners.
 
+## Live App
+[Click here to view the live app](https://financial-dashboard-66dxxn7pc5gaxptrfvbxpo.streamlit.app/)
+
 ## Features
 - Input any stock symbol and view live financial data
 - Visualize technical indicators like:
